@@ -17,7 +17,7 @@
       .halo { fill: #01245f; fill-opacity: 0.32; }
       .halo2 { fill: #01245f; fill-opacity: 0.12; }
       .w { fill: #ffffff; }
-      .bar { stroke: #7fe3ff; stroke-width: 4; stroke-linecap: round; stroke-dasharray: 300; stroke-dashoffset: 0; animation: load 3s linear infinite; }
+      .bar { stroke: #7fe3ff; stroke-width: 4; stroke-linecap: round; stroke-dasharray: 90 790; stroke-dashoffset: 0; animation: sweep 3s linear infinite; }
       .t { animation: swap 9s ease-in-out infinite; }
       .t2 { opacity: 0; animation-delay: 3s; }
       .t3 { opacity: 0; animation-delay: 6s; }
@@ -25,7 +25,7 @@
       .b2 { animation: d2 11s ease-in-out infinite alternate; }
       .b3 { animation: d3 13s ease-in-out infinite alternate; }
       @keyframes float { from { transform: translateY(0); } to { transform: translateY(-3px); } }
-      @keyframes load { from { stroke-dashoffset: 300; } to { stroke-dashoffset: 0; } }
+      @keyframes sweep { from { stroke-dashoffset: 90; } to { stroke-dashoffset: -790; } }
       @keyframes swap { 0%, 28% { opacity: 1; } 34%, 92% { opacity: 0; } 100% { opacity: 1; } }
       @keyframes d1 { from { transform: translate(-80px, -30px); } to { transform: translate(260px, -10px); } }
       @keyframes d2 { from { transform: translate(300px, -20px); } to { transform: translate(-120px, 0px); } }
@@ -43,26 +43,26 @@
     <g filter="url(#aura)"><text x="500" y="98" class="n halo">Guillaume Fouquier</text></g>
   </g>
   <text x="500" y="98" class="n w">Guillaume Fouquier</text>
-  <line x1="350" y1="124" x2="650" y2="124" class="bar"/>
+  <line x1="60" y1="124" x2="940" y2="124" class="bar"/>
   <g class="t t1">
     <g clip-path="url(#c)">
-      <g filter="url(#aura2)"><text x="500" y="164" class="s halo2">Réseaux &amp; Infrastructures</text></g>
-      <g filter="url(#aura)"><text x="500" y="164" class="s halo">Réseaux &amp; Infrastructures</text></g>
+      <g filter="url(#aura2)"><text x="500" y="182" class="s halo2">Réseaux &amp; Infrastructures</text></g>
+      <g filter="url(#aura)"><text x="500" y="182" class="s halo">Réseaux &amp; Infrastructures</text></g>
     </g>
-    <text x="500" y="164" class="s w">Réseaux &amp; Infrastructures</text>
+    <text x="500" y="182" class="s w">Réseaux &amp; Infrastructures</text>
   </g>
   <g class="t t2">
     <g clip-path="url(#c)">
-      <g filter="url(#aura2)"><text x="500" y="164" class="s halo2">Cybersécurité</text></g>
-      <g filter="url(#aura)"><text x="500" y="164" class="s halo">Cybersécurité</text></g>
+      <g filter="url(#aura2)"><text x="500" y="182" class="s halo2">Cybersécurité</text></g>
+      <g filter="url(#aura)"><text x="500" y="182" class="s halo">Cybersécurité</text></g>
     </g>
-    <text x="500" y="164" class="s w">Cybersécurité</text>
+    <text x="500" y="182" class="s w">Cybersécurité</text>
   </g>
   <g class="t t3">
     <g clip-path="url(#c)">
-      <g filter="url(#aura2)"><text x="500" y="164" class="s halo2">Alternance dès janvier 2027</text></g>
-      <g filter="url(#aura)"><text x="500" y="164" class="s halo">Alternance dès janvier 2027</text></g>
+      <g filter="url(#aura2)"><text x="500" y="182" class="s halo2">Alternance dès janvier 2027</text></g>
+      <g filter="url(#aura)"><text x="500" y="182" class="s halo">Alternance dès janvier 2027</text></g>
     </g>
-    <text x="500" y="164" class="s w">Alternance dès janvier 2027</text>
+    <text x="500" y="182" class="s w">Alternance dès janvier 2027</text>
   </g>
 </svg>
