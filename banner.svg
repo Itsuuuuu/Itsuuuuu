@@ -12,21 +12,22 @@
     <filter id="aura2" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="16"/></filter>
     <style>
       text { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif; text-anchor: middle; }
-      .n { font-size: 54px; font-weight: 600; letter-spacing: -1.5px; animation: rise 1.1s ease-out backwards; }
-      .s { font-size: 23px; font-weight: 500; letter-spacing: 0.2px; animation: rise 1.1s ease-out 0.6s backwards; }
+      .n { font-size: 54px; font-weight: 600; letter-spacing: -1.5px; animation: float 5s ease-in-out infinite alternate; }
+      .s { font-size: 23px; font-weight: 500; letter-spacing: 0.2px; animation: breathe 4s ease-in-out infinite; }
       .p { font-size: 16px; font-weight: 600; fill: #ffffff; }
       .halo { fill: #01245f; fill-opacity: 0.32; }
       .halo2 { fill: #01245f; fill-opacity: 0.12; }
       .w { fill: #ffffff; }
-      .l { stroke: #ffffff; stroke-linecap: round; stroke-opacity: 0.9; transform-box: fill-box; transform-origin: center; animation: grow 1.2s ease-out 0.3s backwards, lp 3s ease-in-out 1.5s infinite; }
+      .l { stroke: #ffffff; stroke-width: 3; stroke-linecap: round; stroke-opacity: 0.9; transform-box: fill-box; transform-origin: center; animation: lp 3s ease-in-out infinite, sweep 6s ease-in-out infinite alternate; }
       .pill { fill: #0a5fe8; animation: pulse 3s ease-in-out infinite; }
       .pt { animation: pulse 3s ease-in-out infinite; }
       .b1 { animation: d1 9s ease-in-out infinite alternate; }
       .b2 { animation: d2 11s ease-in-out infinite alternate; }
       .b3 { animation: d3 13s ease-in-out infinite alternate; }
-      @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-      @keyframes grow { from { transform: scaleX(0); opacity: 0; } to { transform: scaleX(1); opacity: 1; } }
+      @keyframes float { from { transform: translateY(0); } to { transform: translateY(-3px); } }
+      @keyframes breathe { 0%,100% { opacity: 1; } 50% { opacity: 0.8; } }
       @keyframes lp { 0%,100% { stroke-width: 2; } 50% { stroke-width: 4; } }
+      @keyframes sweep { from { transform: scaleX(0.7); } to { transform: scaleX(1.15); } }
       @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .75; } }
       @keyframes d1 { from { transform: translate(-80px, -30px); } to { transform: translate(260px, -10px); } }
       @keyframes d2 { from { transform: translate(300px, -20px); } to { transform: translate(-120px, 0px); } }
