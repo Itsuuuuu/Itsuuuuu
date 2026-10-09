@@ -15,7 +15,7 @@
       .n { font-size: 54px; font-weight: 600; letter-spacing: -1.5px; }
       .s { font-size: 23px; font-weight: 500; letter-spacing: 0.2px; }
       .p { font-size: 16px; font-weight: 600; fill: #ffffff; }
-      .halo { fill: #02307f; fill-opacity: 0.6; }
+      .halo { fill: #01245f; fill-opacity: 0.78; }
       .w { fill: #ffffff; }
       .pill { fill: #0a5fe8; animation: pulse 3s ease-in-out infinite; }
       .b1 { animation: d1 9s ease-in-out infinite alternate; }
