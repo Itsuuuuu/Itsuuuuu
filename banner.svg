@@ -17,7 +17,7 @@
       .halo { fill: #01245f; fill-opacity: 0.32; }
       .halo2 { fill: #01245f; fill-opacity: 0.12; }
       .w { fill: #ffffff; }
-      .bar { stroke: #7fe3ff; stroke-width: 4; stroke-linecap: round; stroke-dasharray: 90 2000; stroke-dashoffset: 0; animation: sweep 3s linear infinite; }
+      .bar { stroke: #7fe3ff; stroke-width: 4; stroke-linecap: round; stroke-dasharray: 880; stroke-dashoffset: 0; animation: grow 3s ease-in-out infinite; }
       .t { animation: swap 9s ease-in-out infinite; }
       .t2 { opacity: 0; animation-delay: 3s; }
       .t3 { opacity: 0; animation-delay: 6s; }
@@ -25,7 +25,7 @@
       .b2 { animation: d2 11s ease-in-out infinite alternate; }
       .b3 { animation: d3 13s ease-in-out infinite alternate; }
       @keyframes float { from { transform: translateY(0); } to { transform: translateY(-3px); } }
-      @keyframes sweep { from { stroke-dashoffset: 90; } to { stroke-dashoffset: -880; } }
+      @keyframes grow { 0% { stroke-dashoffset: 880; opacity: 1; } 85% { stroke-dashoffset: 0; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 0; } }
       @keyframes swap { 0%, 28% { opacity: 1; } 34%, 92% { opacity: 0; } 100% { opacity: 1; } }
       @keyframes d1 { from { transform: translate(-80px, -30px); } to { transform: translate(260px, -10px); } }
       @keyframes d2 { from { transform: translate(300px, -20px); } to { transform: translate(-120px, 0px); } }
