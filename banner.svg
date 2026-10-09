@@ -8,13 +8,14 @@
     </linearGradient>
     <clipPath id="c"><rect width="1000" height="260" rx="28"/></clipPath>
     <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="38"/></filter>
-    <filter id="aura" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="aura" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="aura2" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="16"/></filter>
     <style>
       text { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif; text-anchor: middle; }
       .n { font-size: 54px; font-weight: 600; letter-spacing: -1.5px; }
-      .s { font-size: 23px; font-weight: 400; letter-spacing: 0.2px; }
+      .s { font-size: 23px; font-weight: 500; letter-spacing: 0.2px; }
       .p { font-size: 16px; font-weight: 600; fill: #ffffff; }
-      .halo { fill: #0338a8; fill-opacity: 0.55; }
+      .halo { fill: #02307f; fill-opacity: 0.6; }
       .w { fill: #ffffff; }
       .pill { fill: #0a5fe8; animation: pulse 3s ease-in-out infinite; }
       .b1 { animation: d1 9s ease-in-out infinite alternate; }
@@ -31,7 +32,11 @@
     <g filter="url(#blur)">
       <circle class="b1" cx="200" cy="50" r="95" fill="#5ac8fa" fill-opacity="0.75"/>
       <circle class="b2" cx="650" cy="40" r="110" fill="#7d5cff" fill-opacity="0.35"/>
-      <circle class="b3" cx="500" cy="160" r="90" fill="#ffffff" fill-opacity="0.8"/>
+      <circle class="b3" cx="500" cy="210" r="90" fill="#ffffff" fill-opacity="0.45"/>
+    </g>
+    <g filter="url(#aura2)">
+      <text x="500" y="98" class="n halo">Guillaume Fouquier</text>
+      <text x="500" y="144" class="s halo">Réseaux &amp; Infrastructures · Cybersécurité</text>
     </g>
     <g filter="url(#aura)">
       <text x="500" y="98" class="n halo">Guillaume Fouquier</text>
