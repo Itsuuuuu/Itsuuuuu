@@ -1,27 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="1000" height="220" role="img" aria-label="Guillaume Fouquier - Réseaux et Infrastructures, Cybersécurité">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Guillaume Fouquier - Réseaux et Infrastructures, Cybersécurité">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0a6cff"/>
-      <stop offset="0.55" stop-color="#4aa3ff"/>
+      <stop offset="0" stop-color="#0a5fe8"/>
+      <stop offset="0.4" stop-color="#2f8cff"/>
+      <stop offset="0.75" stop-color="#a9d3ff"/>
       <stop offset="1" stop-color="#ffffff"/>
     </linearGradient>
-    <radialGradient id="h" cx="0.2" cy="0" r="0.8">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-    </radialGradient>
+    <clipPath id="c"><rect width="1000" height="260" rx="28"/></clipPath>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="38"/></filter>
+    <filter id="aura" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="9"/></filter>
     <style>
       text { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif; text-anchor: middle; }
-      .n { font-size: 54px; font-weight: 600; letter-spacing: -1.5px; fill: #ffffff; }
-      .s { font-size: 23px; font-weight: 400; letter-spacing: 0.2px; fill: #ffffff; fill-opacity: 0.95; }
+      .n { font-size: 54px; font-weight: 600; letter-spacing: -1.5px; }
+      .s { font-size: 23px; font-weight: 400; letter-spacing: 0.2px; }
       .p { font-size: 16px; font-weight: 600; fill: #ffffff; }
-      .pill { fill: #0a6cff; animation: pulse 3s ease-in-out infinite; }
-      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.72; } }
+      .halo { fill: #0338a8; fill-opacity: 0.55; }
+      .w { fill: #ffffff; }
+      .pill { fill: #0a5fe8; animation: pulse 3s ease-in-out infinite; }
+      .b1 { animation: d1 9s ease-in-out infinite alternate; }
+      .b2 { animation: d2 11s ease-in-out infinite alternate; }
+      .b3 { animation: d3 13s ease-in-out infinite alternate; }
+      @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .75; } }
+      @keyframes d1 { from { transform: translate(-80px, 0); } to { transform: translate(260px, 40px); } }
+      @keyframes d2 { from { transform: translate(300px, 20px); } to { transform: translate(-120px, 70px); } }
+      @keyframes d3 { from { transform: translate(120px, 90px); } to { transform: translate(-220px, 20px); } }
     </style>
   </defs>
-  <rect width="1000" height="220" rx="28" fill="url(#g)"/>
-  <rect width="1000" height="220" rx="28" fill="url(#h)"/>
-  <text x="500" y="88" class="n">Guillaume Fouquier</text>
-  <text x="500" y="130" class="s">Réseaux &amp; Infrastructures · Cybersécurité</text>
-  <rect x="370" y="158" width="260" height="38" rx="19" class="pill"/>
-  <text x="500" y="182" class="p">Alternance dès janvier 2027</text>
+  <g clip-path="url(#c)">
+    <rect width="1000" height="260" fill="url(#g)"/>
+    <g filter="url(#blur)">
+      <circle class="b1" cx="200" cy="50" r="95" fill="#5ac8fa" fill-opacity="0.75"/>
+      <circle class="b2" cx="650" cy="40" r="110" fill="#7d5cff" fill-opacity="0.35"/>
+      <circle class="b3" cx="500" cy="160" r="90" fill="#ffffff" fill-opacity="0.8"/>
+    </g>
+    <g filter="url(#aura)">
+      <text x="500" y="98" class="n halo">Guillaume Fouquier</text>
+      <text x="500" y="144" class="s halo">Réseaux &amp; Infrastructures · Cybersécurité</text>
+    </g>
+  </g>
+  <text x="500" y="98" class="n w">Guillaume Fouquier</text>
+  <text x="500" y="144" class="s w">Réseaux &amp; Infrastructures · Cybersécurité</text>
+  <rect x="370" y="188" width="260" height="38" rx="19" class="pill"/>
+  <text x="500" y="212" class="p">Alternance dès janvier 2027</text>
 </svg>
