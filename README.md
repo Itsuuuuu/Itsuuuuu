@@ -1,16 +1,45 @@
-## Hi there 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1E46,100:00B7D4&height=200&section=header&text=Guillaume%20Fouquier&fontColor=ffffff&fontSize=48&fontAlignY=38&desc=Réseaux%20%26%20Infrastructures%20·%20Cybersécurité&descAlignY=60&descSize=20" width="100%" alt="Guillaume Fouquier – Réseaux & Infrastructures, Cybersécurité" />
 
-<!--
-**Itsuuuuu/Itsuuuuu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <b>Étudiant à l'école 42 · RNCP 7 – Expert en architecture des systèmes d'information & réseaux</b><br/>
+  <i>À la recherche d'une alternance dès janvier 2027</i>
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 👋 À propos
+
+Étudiant à l'école 42 depuis octobre 2025, je prépare un RNCP 7 avec une forte appétence pour la **cybersécurité**. Je vise un poste d'**Administrateur Réseaux et Infrastructures, option cybersécurité**.
+
+- 🌐 **Réseaux :** adressage, sous-réseaux, passerelles, routage
+- 🐧 **Systèmes :** durcissement d'un serveur Linux (pare-feu, chiffrement LVM, politique de mots de passe, supervision)
+- 🔐 **Sécurité offensive (en cours) :** exploitation de binaires ELF (buffer overflow, format string, ROP, ret2libc)
+- 💻 **Développement :** C et Python, projets documentés
+
+---
+
+## 🚀 Projets à voir en premier
+
+| Projet | Ce que c'est |
+|---|---|
+| [**Net-Practice**](https://github.com/Itsuuuuu/Net-Practice) | Configuration de topologies réseau : IP, masques, passerelles, routage |
+| [**Codexion**](https://github.com/Itsuuuuu/Codexion) | C, threads et mutex : synchronisation, prévention des interblocages, ordonnancement |
+| [**RAG_Against_the_machine**](https://github.com/Itsuuuuu/RAG_Against_the_machine) | Système de questions-réponses sur le code de vLLM, avec mesures de performance |
+| [**Call_me_maybe**](https://github.com/Itsuuuuu/Call_me_maybe) | Appels de fonctions structurés par décodage contraint avec un petit modèle de langage |
+| [**Fly-in**](https://github.com/Itsuuuuu/Fly-in) | Routage d'une flotte de drones sur un graphe, en Python |
+
+---
+
+## 🛠️ Stack
+
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+---
+
+## 📫 Me contacter
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Guillaume%20Fouquier-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guillaume-fouquier-b229b01b1/)
