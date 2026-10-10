@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.linkedin.com/in/guillaume-fouquier-b229b01b1/"><img src="https://raw.githubusercontent.com/Itsuuuuu/Itsuuuuu/main/banner.svg?v=7" width="100%" alt="Guillaume Fouquier – Réseaux, Infrastructures, Cybersécurité" /></a>
+  <a href="https://www.linkedin.com/in/guillaume-fouquier-b229b01b1/"><img src="https://raw.githubusercontent.com/Itsuuuuu/Itsuuuuu/main/banner.svg?v=8" width="100%" alt="Guillaume Fouquier – Réseaux, Infrastructures, Cybersécurité" /></a>
 </p>
 
 <p align="center">
